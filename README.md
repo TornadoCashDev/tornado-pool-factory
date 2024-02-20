@@ -2,10 +2,10 @@
 
 ## About
 
-Separate instance of [Tornado classic](https://github.com/tornadocash/tornado-core) is needed for each [token, denomination] pair. This repository contains smart contracts of Tornado Pool Factory, which is used to create and register new pools:
+Separate instance of [Tornado classic](https://github.com/tornadocashdev/tornado-core) is needed for each [token, denomination] pair. This repository contains smart contracts of Tornado Pool Factory, which is used to create and register new pools:
 
 - factory creates a new Tornado pool
-- if there is [pool registry](https://github.com/Rezan-vm/tornado-relayer-registry/blob/main/contracts/tornado-proxy/InstanceRegistry.sol) on this chain (only ETH mainnet for now), the factory also creates [governance](https://github.com/tornadocash/tornado-governance) proposal for registration new pool in instance registry
+- if there is [pool registry](https://github.com/Rezan-vm/tornado-relayer-registry/blob/main/contracts/tornado-proxy/InstanceRegistry.sol) on this chain (only ETH mainnet for now), the factory also creates [governance](https://github.com/tornadocashdev/tornado-governance) proposal for registration new pool in instance registry
 
 There are two deployed contracts:
 
